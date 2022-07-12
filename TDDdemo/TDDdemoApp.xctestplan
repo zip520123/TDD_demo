@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "B7D8F2C4-D7CC-4E78-AD13-DD529BF64C25",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TDDdemo.xcodeproj",
+      "identifier" : "E7A3A486287DE1D2007E574F",
+      "name" : "TDDdemoApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "BookListViewControllerSnapshotTests"
+      ],
+      "target" : {
+        "containerPath" : "container:TDDdemo.xcodeproj",
+        "identifier" : "E7A3A49B287DE1D3007E574F",
+        "name" : "TDDdemoAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}

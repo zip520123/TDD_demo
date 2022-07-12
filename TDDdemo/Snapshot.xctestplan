@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "EB259CAA-6926-4F21-A82B-3638F0250894",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "TDDdemoAppTests"
+      ],
+      "target" : {
+        "containerPath" : "container:TDDdemo.xcodeproj",
+        "identifier" : "E7A3A49B287DE1D3007E574F",
+        "name" : "TDDdemoAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
